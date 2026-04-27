@@ -20,10 +20,10 @@ Este projeto é estritamente **educacional**. Seu objetivo é demonstrar como fr
   │                  LABORATÓRIO ISOLADO                │
   │                                                     │
   │   ┌──────────────┐    TCP cifrado    ┌───────────┐  │
-  │   │   SERVIDOR   │ ◄──────────────► │  AGENTE   │  │
+  │   │   SERVIDOR   │ ◄──────────────►  │  AGENTE   │  │
   │   │  (atacante)  │   AES+HMAC-SHA256 │  (alvo)   │  │
-  │   │  server.py   │                  │  agent.py │  │
-  │   └──────────────┘                  └───────────┘  │
+  │   │  server.py   │                   │  agent.py │  │
+  │   └──────────────┘                   └───────────┘  │
   │         │                                           │
   │   Shell interativo                                  │
   │   Múltiplos agentes                                 │
